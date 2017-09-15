@@ -1,7 +1,13 @@
 doctype html
 html
   head
-    title= title
+    title='where-to'
     link(rel='stylesheet', href='/static/stylesheets/style.css')
+    script(src='/jquery/jquery.min.js')
+    script(src='/static/javascripts/index.js')
+    script(type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAICVUqfS67mSWodadjuSRXErOTN0wV8Pg&libraries=places")
   body
     block content
+    input(id='search' type='text' placeholder='what do you want to do?')
+    div(id='map')
+    p sdfsdfs
